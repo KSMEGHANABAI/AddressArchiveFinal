@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#da4453 ;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+form div {
+    margin-bottom: 20px;
+}
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+form input[type="text"],
+form input[type="tel"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form textarea {
+    resize: vertical;
+}
+form button[type="submit"] {
+    background-color:#da4453;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+form button[type="submit"]:hover {
+    background-color:#da4453;
+}
+.large-curved-button {
+    display: inline-block;
+    padding: 15px 30px; 
+    background-color: #007bff; 
+    color: white; /* White text color */
+    font-size: 18px; /* Larger font size */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Curved edges */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+}
+
+.large-curved-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
